@@ -1,0 +1,12 @@
+.card {
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  font-weight: 500;
+}
+/*# sourceMappingURL=Card.css.map */

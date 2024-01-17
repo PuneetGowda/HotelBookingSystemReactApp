@@ -1,0 +1,16 @@
+.hotel-grid {
+  background-image: url(../icon/add-i.png);
+  position: fixed;
+  top: 86%;
+  left: 93%;
+  height: 5%;
+  width: 3.5%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  z-index: 30;
+}
+
+.hotel-grid:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+hr {
+  width: 40rem;
+  margin-left: 0;
+}
+
+h3 {
+  margin: 0rem;
+  padding: 0rem;
+  padding-top: 3vw;
+}
+
+.hotel-general {
+  text-align: left;
+  margin-left: 28.5rem;
+  margin-right: 0;
+}
+
+.hotel-other {
+  text-align: left;
+  margin-left: 28.5rem;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  padding-top: 0.5rem;
+}
+
+.hotel-other div {
+  display: inline;
+  color: #5a5ab8;
+  text-decoration: underline;
+}
+
+.hotel-other div:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=HotelInformation.css.map */

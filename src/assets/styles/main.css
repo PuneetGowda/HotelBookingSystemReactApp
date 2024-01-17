@@ -1,0 +1,235 @@
+.add-edit-form {
+  text-align: center; }
+
+.form-control {
+  margin: 1rem 0;
+  font-weight: 800; }
+
+.form-control input {
+  padding: 0.35rem 0.35rem;
+  width: 25rem; }
+
+.form-control label {
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-right: 18.7rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  left: 0%; }
+
+.form-control.name label {
+  margin-right: 20.5rem; }
+
+.form-control.location label {
+  margin-right: 22.2rem; }
+
+.form-control.contact label {
+  margin-right: 18.4rem; }
+
+.form-control.email label {
+  margin-right: 22.2rem; }
+
+.form-control.rating label {
+  margin-right: 23rem; }
+
+.pet {
+  display: inline-block;
+  margin: 0;
+  padding: 0; }
+
+.pet label {
+  font-weight: 600;
+  float: right;
+  padding-left: 1rem; }
+
+.pet input {
+  height: 20px;
+  width: 20px;
+  float: left;
+  margin-top: 8.5%; }
+
+.form-button {
+  padding: 0.4rem 3rem;
+  font-weight: 600;
+  margin-top: 25%; }
+
+.button-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-left: 10%; }
+
+.form-button.add-edit {
+  background-color: #615a5a;
+  color: white; }
+
+.form-button.cancel {
+  border: none;
+  background: white;
+  color: black; }
+
+.form-button:hover {
+  cursor: pointer; }
+
+.button {
+  background: #615a5a;
+  cursor: pointer;
+  padding: 0.5rem 9.6rem;
+  margin-top: 1rem;
+  font-size: 1.15rem;
+  color: white;
+  border-color: #615a5a; }
+
+.card {
+  background: white;
+  border-radius: 10px;
+  text-align: center; }
+
+h2 {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  font-weight: 500; }
+
+.InovuaReactDataGrid {
+  margin: 2.5rem;
+  border-left: none;
+  border-right: none;
+  margin-top: 1.5rem;
+  height: auto;
+  width: auto;
+  min-height: 100rem; }
+
+.InovuaReactDataGrid__header {
+  color: black;
+  font-weight: bold;
+  font-size: 1.15rem;
+  border: 0.1px solid gray;
+  border-left: none;
+  border-right: none; }
+
+.InovuaReactDataGrid__cell {
+  background-color: white;
+  font-weight: 600; }
+
+.InovuaReactDataGrid__row {
+  border-top: 1px solid gray;
+  background-color: white; }
+
+.count {
+  font-weight: 550;
+  margin-top: 0.7rem;
+  margin-left: 2.2rem; }
+
+.search-bar input {
+  height: 1.7rem;
+  width: 14rem;
+  border: none;
+  background-color: lightgrey;
+  padding: 0.5rem; }
+
+::placeholder {
+  color: black;
+  font-style: italic; }
+
+.container {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between; }
+
+.hotel-grid {
+  background-image: url(../icon/add-i.png);
+  position: fixed;
+  top: 86%;
+  left: 93%;
+  height: 5%;
+  width: 3.5%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  z-index: 30; }
+
+.hotel-grid:hover {
+  cursor: pointer; }
+
+hr {
+  width: 40rem;
+  margin-left: 0; }
+
+h3 {
+  margin: 0rem;
+  padding: 0rem;
+  padding-top: 3vw; }
+
+.hotel-general {
+  text-align: left;
+  margin-left: 28.5rem;
+  margin-right: 0; }
+
+.hotel-other {
+  text-align: left;
+  margin-left: 28.5rem; }
+
+label {
+  display: block;
+  font-weight: 500;
+  padding-top: 0.5rem; }
+
+.hotel-other div {
+  display: inline;
+  color: #5a5ab8;
+  text-decoration: underline; }
+
+.hotel-other div:hover {
+  cursor: pointer; }
+
+.icon:hover {
+  cursor: pointer; }
+
+.view-icon {
+  background: url(../icon/view-icon.png);
+  background-size: 1.4rem;
+  background-repeat: no-repeat;
+  width: 1.4rem;
+  height: 1.4rem; }
+
+.edit-icon {
+  margin-top: 0.2rem;
+  background-image: url(../icon/edit-icon.png);
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  width: 1rem;
+  height: 1rem; }
+
+.delete-icon {
+  margin-top: 0.3rem;
+  background-image: url(../icon/delete-icon.png);
+  background-repeat: no-repeat;
+  background-size: 0.8rem;
+  width: 0.8rem;
+  height: 0.8rem; }
+
+.icon-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1.8rem; }
+
+.delete-icon:hover {
+  cursor: pointer; }
+
+.control {
+  margin: 1rem 0; }
+
+.control input {
+  padding: 0.35rem 0.35rem; }
+
+.control label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  left: 0%; }
+
+label {
+  margin-right: 19rem; }
+
+input {
+  width: 22rem; }

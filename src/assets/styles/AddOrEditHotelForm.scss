@@ -1,0 +1,91 @@
+@import './Variable.scss';
+
+.add-edit-form {
+  text-align: center;
+}
+
+.form-control {
+  margin: 1rem 0;
+  font-weight: 800;
+}
+
+.form-control input {
+  padding: 0.35rem 0.35rem;
+  width: 25rem;
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-right: 18.7rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  left: 0%;
+}
+
+.form-control.name label {
+  margin-right: 20.5rem;
+}
+
+.form-control.location label {
+  margin-right: 22.2rem;
+}
+
+.form-control.contact label {
+  margin-right: 18.4rem;
+}
+
+.form-control.email label {
+  margin-right: 22.2rem;
+}
+
+.form-control.rating label {
+  margin-right: 23rem;
+}
+
+.pet {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.pet label {
+  font-weight: 600;
+  float: right;
+  padding-left: 1rem;
+}
+
+.pet input {
+  height: 20px;
+  width: 20px;
+  float: left;
+  margin-top: 8.5%;
+}
+
+.form-button {
+  padding: 0.4rem 3rem;
+  font-weight: 600;
+  margin-top: 25%;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.form-button.add-edit {
+  background-color: $darkGrayColor;
+  color: $whiteColor;
+}
+
+.form-button.cancel {
+  border: none;
+  background: $whiteColor;
+  color: black;
+}
+
+.form-button:hover {
+  cursor: pointer;
+}

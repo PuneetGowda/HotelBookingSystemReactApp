@@ -1,0 +1,61 @@
+@import './Variable.scss';
+
+.navigation {
+  background: $darkGrayColor;
+  padding: 1.4rem;
+  color: $whiteColor;
+  font-weight: 900;
+  padding-left: 2rem;
+  font-size: large;
+  display: flex;
+}
+
+.logout-button {
+  max-width: 1.5rem;
+  float: right;
+}
+
+.logout-button:hover {
+  cursor: pointer;
+}
+
+.nav-icon {
+  color: white;
+}
+
+.nav-edit-icon {
+  background-image: url(../icon/nav-edit-icon.png);
+  background-repeat: no-repeat;
+  background-size: 0.8rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 1rem;
+}
+
+.arrow {
+  background-image: url(../icon/right-arrow-icon.png);
+  background-size: 1rem;
+  width: 1rem;
+  height: 1rem;
+  margin: 0.3rem 0.5rem;
+}
+
+.nav-delete-icon {
+  background-image: url(../icon/nav-delete-icon.png);
+  background-repeat: no-repeat;
+  background-size: 0.8rem;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.nav-icon:hover {
+  cursor: pointer;
+}
+
+.nav-location:hover {
+  cursor: pointer;
+}
+
+.nav-logout {
+  flex: 1;
+}

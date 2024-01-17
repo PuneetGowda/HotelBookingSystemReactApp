@@ -1,0 +1,71 @@
+.modal {
+  position: fixed;
+  top: 30vh;
+  left: 5%;
+  text-align: center;
+  width: 20%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 14px;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  -webkit-animation: slide-down 300ms ease-out forwards;
+          animation: slide-down 300ms ease-out forwards;
+}
+
+.n-button {
+  padding: 0.3rem;
+  margin: 0.3rem 0.5rem;
+  font-weight: bold;
+  width: 3rem;
+  background: white;
+  border: none;
+}
+
+.buttons:hover {
+  cursor: pointer;
+}
+
+.y-button {
+  padding: 0.3rem;
+  margin: 0.3rem 0.5rem;
+  background: #615a5a;
+  color: white;
+  width: 3rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: 26rem;
+    left: calc(50% - 15rem);
+  }
+}
+
+@-webkit-keyframes slide-down {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=Modal.css.map */

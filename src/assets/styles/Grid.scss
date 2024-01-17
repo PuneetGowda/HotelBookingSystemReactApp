@@ -1,0 +1,57 @@
+@import './Variable.scss';
+
+.InovuaReactDataGrid {
+  margin: 2.5rem;
+  border-left: none;
+  border-right: none;
+  margin-top: 1.5rem;
+  height: auto;
+  width: auto;
+  min-height: 100rem;
+}
+
+.InovuaReactDataGrid__header {
+  color: $blackColor;
+  font-weight: bold;
+  font-size: $fontSize;
+  border: 0.1px solid $grayColor;
+  border-left: none;
+  border-right: none;
+}
+
+.InovuaReactDataGrid__cell {
+  background-color: $whiteColor;
+  font-weight: 600;
+}
+
+.InovuaReactDataGrid__row {
+  border-top: 1px solid $grayColor;
+  background-color: $whiteColor;
+}
+
+.count {
+  font-weight: 550;
+  margin-top: 0.7rem;
+  margin-left: 2.2rem;
+  // flex: 1;
+}
+
+.search-bar input {
+  height: 1.7rem;
+  width: 14rem;
+  border: none;
+  background-color: lightgrey;
+  padding: 0.5rem;
+}
+
+::placeholder {
+  color: black;
+  font-style: italic;
+}
+
+.container {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
