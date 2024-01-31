@@ -22,7 +22,10 @@ import axios from 'axios';
 export async function createHotel(hotel) {
   const response = await axios.post(
     'http://localhost:8080/hotelbookingsystemjpa/api/hotels',
-    hotel
+    hotel, {auth: {
+      username: 'admin',
+      password: 'admin'
+    }}
   );
 
   console.log('inside add hotel', response);
@@ -32,7 +35,10 @@ export async function createHotel(hotel) {
 export async function updateHotel(hotelId, hotel) {
   const response = await axios.put(
     `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}`,
-    hotel
+    hotel, {auth: {
+      username: 'admin',
+      password: 'admin'
+    }}
   );
 
   console.log('inside update hotel', response);
@@ -41,7 +47,10 @@ export async function updateHotel(hotelId, hotel) {
 // This function deletes a hotel
 export async function deleteAHotel(hotelId) {
   const response = await axios.delete(
-    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}`
+    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}`, {auth: {
+      username: 'admin',
+      password: 'admin'
+    }}
   );
 
   console.log('inside delete hotel function', response);
@@ -56,7 +65,10 @@ export async function hotelList(hotelName) {
 
     // Sending axios get request to api server for getting list of hotels
     const response = await axios.get(
-      `http://localhost:8080/hotelbookingsystemjpa/api/hotels?hotel_name=${hotel_name}`
+      `http://localhost:8080/hotelbookingsystemjpa/api/hotels?hotel_name=${hotel_name}`, {auth: {
+        username: 'admin',
+        password: 'admin'
+      }}
     );
 
     // Getting the array of hotels fron data attribute of response
@@ -113,7 +125,10 @@ export async function hotelList(hotelName) {
 
 export async function hotelInformation(hotelId) {
   const response = await axios.get(
-    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}`
+    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}`, {auth: {
+      username: 'admin',
+      password: 'admin'
+    }}
   );
 
   console.log('Inside hotel information, Response is ', response);
@@ -140,7 +155,10 @@ export async function hotelInformation(hotelId) {
 
 export async function hotelCustomersList(hotelId) {
   const response = await axios.get(
-    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}/customers`
+    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}/customers`, {auth: {
+      username: 'admin',
+      password: 'admin'
+    }}
   );
 
   const responseData = await response.data;
@@ -166,7 +184,10 @@ export async function hotelCustomersList(hotelId) {
 
 export async function hotelServicesList(hotelId) {
   const response = await axios(
-    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}/services`
+    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}/services`, {auth: {
+      username: 'admin',
+      password: 'admin'
+    }}
   );
 
   console.log('inside hotel services function ', response);
@@ -189,7 +210,10 @@ export async function hotelServicesList(hotelId) {
 
 export async function hotelRoomsList(hotelId) {
   const response = await axios(
-    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}/rooms`
+    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}/rooms`, {auth: {
+      username: 'admin',
+      password: 'admin'
+    }}
   );
 
   console.log('inside hotel room function', response);
@@ -215,7 +239,10 @@ export async function hotelRoomsList(hotelId) {
 
 export async function hotelEmployeesList(hotelId) {
   const response = await axios(
-    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}/employees`
+    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}/employees`, {auth: {
+      username: 'admin',
+      password: 'admin'
+    }}
   );
 
   console.log('Inside hotel employee function ', response);
@@ -240,7 +267,10 @@ export async function hotelEmployeesList(hotelId) {
 
 export async function hotelBookingsList(hotelId) {
   const response = await axios.get(
-    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}/bookings`
+    `http://localhost:8080/hotelbookingsystemjpa/api/hotels/${hotelId}/bookings`, {auth: {
+      username: 'admin',
+      password: 'admin'
+    }}
   );
 
   console.log('inside hotel bookings list function', response);
